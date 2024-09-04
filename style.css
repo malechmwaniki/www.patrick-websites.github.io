@@ -156,6 +156,26 @@ body {
     }
 }
 
+@media (max-width: 200px) {
+  .custom-box {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        width: 90%; /* Adjust width for smaller screens */
+        padding: 30px; /* Adjust padding */
+        margin-top: 500px;
+        padding-top: 1500px;
+    }
+
+    .custom-box .hme h1 {
+        font-size: 28px; /* Further reduce font size */
+    }
+
+    .custom-box .hme p.i {
+        font-size: 12px; /* Further adjust font size */
+    }
+}
+
+
 /* About me styling */
 #about {
     justify-content: center;
