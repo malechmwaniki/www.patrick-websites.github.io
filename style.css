@@ -94,7 +94,7 @@ body {
 
 
 /* Media Queries for Mobile Devices */
-@media (max-width: 550px) {
+@media (max-width: 750px) {
     .body {
         width:100%;
     }
@@ -138,9 +138,13 @@ body {
 }
 
 @media (max-width: 480px) {
-    .custom-box {
-        width: 100%; /* Full width on very small screens */
-        padding: 20px; /* Further reduce padding */
+  .custom-box {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        width: 90%; /* Adjust width for smaller screens */
+        padding: 30px; /* Adjust padding */
+        margin-top: 500px;
+        padding-top: 1000px;
     }
 
     .custom-box .hme h1 {
