@@ -138,6 +138,10 @@ body {
 }
 
 @media (max-width: 480px) {
+    body {
+        margin:0 1;
+        padding-left:100px;
+    }
   .custom-box {
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Center items horizontally */
@@ -163,7 +167,7 @@ body {
         width: 90%; /* Adjust width for smaller screens */
         padding: 30px; /* Adjust padding */
         margin-top: 500px;
-        padding-top: 1500px;
+        padding-top: 2000px;
     }
 
     .custom-box .hme h1 {
