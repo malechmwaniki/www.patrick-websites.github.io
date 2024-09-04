@@ -228,7 +228,22 @@ body {
         margin: 20px auto; /* Adjust vertical spacing */
     }
 }
-
+@media (max-width: 480px) {
+    .project {
+        width: 90%; /* Ensure full width on smaller screens */
+        padding: 15px; /* Adjust padding */
+        text-align: center; /* Center text */
+        margin: 20px auto; /* Adjust vertical spacing */
+    }
+}
+@media (max-width: 200px) {
+    .project {
+        width: 90%; /* Ensure full width on smaller screens */
+        padding: 15px; /* Adjust padding */
+        text-align: center; /* Center text */
+        margin: 20px auto; /* Adjust vertical spacing */
+    }
+}
 
 .project h2 {
     font-size: 24px;
